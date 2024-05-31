@@ -3,7 +3,7 @@ title = "Happy Birthday %s 🎉🎂🎈🎁🎊🥳"
 [smtp]
 host = "smtp.example.com"
 port = 587
-user = "example@gmail.com"
+user = "mail@example.com"
 pass = "CHANGE_ME"
 
 [imgflip]

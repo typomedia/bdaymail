@@ -14,9 +14,9 @@ On first run, the program will create a `config.json` file in the **same directo
 title = "Happy Birthday %s 🎉🎂🎈🎁🎊🥳" # Email subject
 
 [smtp]
-host = "smtp.gmail.com"      # SMTP server    
+host = "smtp.example.com"    # SMTP server    
 port = 587                   # SMTP port
-user = "example@gmail.com"   # SMTP username
+user = "mail@example.com"    # SMTP username
 pass = "CHANGE_ME"           # SMTP password
 
 [imgflip]
