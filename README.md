@@ -69,4 +69,4 @@ bdaymail fellows.json
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-Copyright © 2023 Typomedia Foundation. All rights reserved.
+Copyright © 2024 Typomedia Foundation. All rights reserved.
