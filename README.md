@@ -8,7 +8,7 @@ It is built to run via a daily cron job to send out birthday emails automaticall
 
 ## First Run
 
-On first run, the program will create a `config.json` file in the **same directory as the executable**.
+On first run, the program will create a `config.toml` file in the **same directory as the executable**.
 
 ```toml
 title = "Happy Birthday %s 🎉🎂🎈🎁🎊🥳" # Email subject
