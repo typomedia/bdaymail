@@ -18,6 +18,7 @@ host = "smtp.example.com"    # SMTP server
 port = 587                   # SMTP port
 user = "mail@example.com"    # SMTP username
 pass = "CHANGE_ME"           # SMTP password
+tls  = false                 # SMTP starttls
 
 [imgflip]
 text = "Happy Birthday!"     # Text to display on the meme

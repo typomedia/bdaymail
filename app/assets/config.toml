@@ -5,6 +5,7 @@ host = "smtp.example.com"
 port = 587
 user = "mail@example.com"
 pass = "CHANGE_ME"
+tls  = false
 
 [imgflip]
 text = "Happy Birthday!"

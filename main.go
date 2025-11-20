@@ -45,10 +45,20 @@ func main() {
 	host := viper.GetString("smtp.host")
 	user := viper.GetString("smtp.user")
 	password := viper.GetString("smtp.pass")
+	port := viper.GetInt("smtp.port")
+	tls := viper.GetBool("smtp.tls")
 	text := viper.GetString("imgflip.text")
 
 	file, _ := fs.ReadFile("app/assets/email.html")
-	mailer := tinymail.New(user, password, host)
+
+	opts := tinymail.MailerOpts{
+		User:     user,
+		Password: password,
+		Host:     host,
+		Port:     port,
+		TLS:      tls,
+	}
+	mailer, _ := tinymail.New(opts)
 
 	for _, fellow := range fellows {
 		birthdate, _ := time.Parse("02.01.2006", fellow.Birthdate)
